@@ -14,12 +14,12 @@ El sistema está dividido en dos partes:
 A)Servidor de monitorización (Ubuntu Server) (Srv Josep 0374)
 B)Servidor web Apache && Nginx (Ubuntu Server) (Srv Izan 0375)
 
-1.Scripts Bash generan datos del sistema en formato JSON.
-2.Cron automatiza la ejecución periódica.
-3.Los archivos se sincronizan al servidor web mediante rsync.
-4.Apache sirve el dashboard.
-5.JavaScript actualiza los datos automáticamente cada 6 minutos, los mismos que necesita el servidor A) para enviar la información
-6.Sistema de alertas con servicios de correo
+1. Scripts Bash generan datos del sistema en formato JSON.
+2. Cron automatiza la ejecución periódica.
+3. Los archivos se sincronizan al servidor web mediante rsync.
+4. Apache sirve el dashboard.
+5. JavaScript actualiza los datos automáticamente cada 6 minutos, los mismos que necesita el servidor A) para enviar la información
+6. Sistema de alertas con servicios de correo
 
 Algunas de las tecnologías utilizadas: 
 Bash Scripting
