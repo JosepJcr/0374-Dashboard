@@ -1,29 +1,31 @@
 # 0374-Dashboard
 Github Repository ASIX Students, IT Project and Network Administration, Web Dashboard and implementation of resources and technology
-Este proyecto consiste en el desarrollo de un sistema de monitorización de servidor Linux, capaz de:
+This project consists of developing a Linux server monitoring system capable of:
 
-Objetivo:
-1. Recoger información del sistema (CPU, RAM, Disco, Red, Procesos).
-2. Generar archivos JSON con resultados del 1.
-3. Transferir los datos a un servidor web.
-4. Mostrar la información en un dashboard web dinámico con actualización automática.
-5. Si hay cambios bruscos en el estado del servidor (estrés, fallo de servicios, cadena de errores) enviar un correo electronico dando aviso.
+Objective:
+1. Collecting system information (CPU, RAM, Disk, Network, Processes).
+2. Generating JSON files with the results of 1.
+3. Transfer the data to a web server.
+4. Display the information on a dynamic web dashboard with automatic updates.
+5. If there are sudden changes in the server status (stress, service failure, error chain), send an email notification.
 
-Funcionamiento:
-El sistema está dividido en dos partes:
-A)Servidor de monitorización (Ubuntu Server) (Srv Josep 0374)
-B)Servidor web Apache && Nginx (Ubuntu Server) (Srv Izan 0375)
+Operation:
+The system is divided into two parts:
+A) Monitoring server (Ubuntu Server) (Srv Josep 0374)
+B) Apache && Nginx web server (Ubuntu Server) (Srv Izan 0375)
 
-1. Scripts Bash generan datos del sistema en formato JSON.
-2. Cron automatiza la ejecución periódica.
-3. Los archivos se sincronizan al servidor web mediante rsync.
-4. Apache sirve el dashboard.
-5. JavaScript actualiza los datos automáticamente cada 6 minutos, los mismos que necesita el servidor A) para enviar la información
-6. Sistema de alertas con servicios de correo
+1. Bash scripts generate system data in JSON format.
+2. Cron automates periodic execution.
+3. Files are synchronized to the web server using rsync.
+4. Apache serves the dashboard.
+5. JavaScript automatically updates the data every 6 minutes, which is what server A) needs to send the information.
+6. Alert system with email services.
 
-Algunas de las tecnologías utilizadas: 
+Some of the technologies used: 
 Bash Scripting
 Cron
 rsync
 Apache
 HTML / CSS / JS
+
+Translated with DeepL.com (free version)
