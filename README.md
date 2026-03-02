@@ -28,4 +28,4 @@ rsync
 Apache
 HTML / CSS / JS
 
-Translated with DeepL.com (free version)
+
