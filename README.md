@@ -1,31 +1,43 @@
+Aquí tens la traducció al català del contingut del *README.md*:
+
+---
+
 # 0374-Dashboard
-Github Repository ASIX Students, IT Project and Network Administration, Web Dashboard and implementation of resources and technology
-This project consists of developing a Linux server monitoring system capable of:
 
-Objective:
-1. Collecting system information (CPU, RAM, Disk, Network, Processes).
-2. Generating JSON files with the results of 1.
-3. Transfer the data to a web server.
-4. Display the information on a dynamic web dashboard with automatic updates.
-5. If there are sudden changes in the server status (stress, service failure, error chain), send an email notification.
+Repositori de GitHub dels estudiants d’ASIX, Projecte d’IT i Administració de Xarxes. Panell web (*Web Dashboard*) i implementació de recursos i tecnologia.
 
-Operation:
-The system is divided into two parts:
-A) Monitoring server (Ubuntu Server) (Srv Josep 0374)
-B) Apache && Nginx web server (Ubuntu Server) (Srv Izan 0375)
+Aquest projecte consisteix en el desenvolupament d’un sistema de monitoratge de servidors Linux capaç de:
 
-1. Bash scripts generate system data in JSON format.
-2. Cron automates periodic execution.
-3. Files are synchronized to the web server using rsync.
-4. Apache serves the dashboard.
-5. JavaScript automatically updates the data every 6 minutes, which is what server A) needs to send the information.
-6. Alert system with email services.
+## Objectiu:
 
-Some of the technologies used: 
-Bash Scripting
-Cron
-rsync
-Apache
-HTML / CSS / JS
+* Recollir informació del sistema (CPU, RAM, Disc, Xarxa, Processos).
+* Generar fitxers JSON amb els resultats del punt 1.
+* Transferir les dades a un servidor web.
+* Mostrar la informació en un panell web dinàmic amb actualitzacions automàtiques.
+* Si hi ha canvis sobtats en l’estat del servidor (estrès, fallada de servei, cadena d’errors), enviar una notificació per correu electrònic.
+
+## Funcionament:
+
+El sistema està dividit en dues parts:
+
+A) Servidor de monitoratge (Ubuntu Server) (Srv Josep 0374)
+B) Servidor web Apache && Nginx (Ubuntu Server) (Srv Izan 0375)
+
+* Scripts Bash generen dades del sistema en format JSON.
+* Cron automatitza l’execució periòdica.
+* Els fitxers es sincronitzen amb el servidor web mitjançant rsync.
+* Apache serveix el panell web.
+* JavaScript actualitza automàticament les dades cada 6 minuts, que és el temps que necessita el servidor A) per enviar la informació.
+* Sistema d’alertes amb serveis de correu electrònic.
+
+## Algunes de les tecnologies utilitzades:
+
+* Bash Scripting
+* Cron
+* rsync
+* Apache
+* HTML / CSS / JS
+
+---
 
 
