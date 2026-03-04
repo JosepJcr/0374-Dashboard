@@ -1,7 +1,3 @@
-Aquí tens la traducció al català del contingut del *README.md*:
-
----
-
 # 0374-Dashboard
 
 Repositori de GitHub dels estudiants d’ASIX, Projecte d’IT i Administració de Xarxes. Panell web (*Web Dashboard*) i implementació de recursos i tecnologia.
